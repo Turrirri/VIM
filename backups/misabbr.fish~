@@ -1,0 +1,33 @@
+abbr -a -- actualiza 'pamac update --force-refresh --no-confirm'
+abbr -a -- all lla
+abbr -a -- bc 'bc -l'
+abbr -a -- busca 'pamac search'
+abbr -a -- cp 'cp -i'
+abbr -a -- cut choose
+abbr -a -- df 'dysk --color yes'
+abbr -a -- du 'ncdu --color dark-bg'
+abbr -a -- ed '$EDITOR'
+abbr -a -- edit '$EDITOR'
+abbr -a -- egrep 'egrep -i --colour=auto'
+abbr -a -- fgrep 'fgrep -i --colour=auto'
+abbr -a -- fiu "fzf --preview 'less {}'"
+abbr -a -- free 'free -mh'
+abbr -a -- Info cht.sh
+abbr -a -- info tldr
+abbr -a -- instala pack
+abbr -a -- quita pack
+# abbr -a -- instala 'pamac install'
+# abbr -a -- install 'pamac install'
+abbr -a -- mirrors 'sudo pacman-mirrors -f8'
+abbr -a -- mkdir 'mkdir -pv'
+abbr -a -- more less
+abbr -a -- mv 'mv -i'
+abbr -a -- octal "stat -c '%a %n' *"
+abbr -a -- orphans 'pamac remove --orphans'
+abbr -a -- pgrep 'pgrep -li'
+# abbr -a -- quita 'pamac remove --orphans'
+# abbr -a -- uninstall 'pamac remove --orphans'
+abbr -a -- video 'xrandr -s 0'
+abbr -a H --position anywhere --set-cursor "% | head"
+abbr -a L --position anywhere --set-cursor "% | less"
+abbr -a T --position anywhere --set-cursor "% | tail"

@@ -1,0 +1,448 @@
+# Vim 9.1 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Viminfo version
+|1,4
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Último Patrón de búsqueda:
+~MSle0~/chunk
+
+# Último Sustitución Patrón de búsqueda:
+~MSle0&ny
+
+# Última cadena de sustitución:
+$
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q!
+|2,0,1759024743,,"q!"
+:q
+|2,0,1759024735,,"q"
+:w
+|2,0,1759024622,,"w"
+:wqa
+|2,0,1759023376,,"wqa"
+:map
+|2,0,1759023123,,"map"
+:%s/ny/ñ/gc
+|2,0,1759023052,,"%s/ny/ñ/gc"
+:FZF
+|2,0,1759022349,,"FZF"
+:vimgrep alias
+|2,0,1759022317,,"vimgrep alias"
+:!ls
+|2,0,1759021846,,"!ls"
+:h clipboard
+|2,0,1758984089,,"h clipboard"
+:H clipboard
+|2,0,1758984075,,"H clipboard"
+:wq
+|2,0,1758978538,,"wq"
+:qa
+|2,0,1758945561,,"qa"
+:wq!
+|2,0,1758880067,,"wq!"
+:PlugInstall
+|2,0,1758801992,,"PlugInstall"
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+?/chunk
+|2,1,1759024707,47,"chunk"
+? \s\+$
+|2,1,1759023101,,"\\s\\+$"
+? ny
+|2,1,1759023052,,"ny"
+?/autoc
+|2,1,1759022213,47,"autoc"
+?/nno
+|2,1,1759022100,47,"nno"
+?/clipboard
+|2,1,1758984065,47,"clipboard"
+?/vim
+|2,1,1758816609,47,"vim"
+?/shel
+|2,1,1758815789,47,"shel"
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de depuración (de lo más nuevo a lo más antiguo):
+
+# Registros:
+"0	LINE	0
+	
+|3,0,0,1,1,0,1759023008,""
+"1	LINE	0
+	
+|3,0,1,1,1,0,1759022599,""
+"2	LINE	0
+	nnoremap * *zz
+	nnoremap * *zz
+|3,0,2,1,2,0,1759022045,"nnoremap * *zz","nnoremap * *zz"
+"3	LINE	0
+	set wildcharm=<C-z>
+|3,0,3,1,1,0,1759021914,"set wildcharm=<C-z>"
+"4	LINE	0
+	set wildcharm=<C-z>
+	set wildcharm=<C-z>
+	set wildcharm=<C-z>
+	set wildcharm=<C-z>
+|3,0,4,1,4,0,1759021910,"set wildcharm=<C-z>","set wildcharm=<C-z>","set wildcharm=<C-z>","set wildcharm=<C-z>"
+"5	LINE	0
+	3ddthreshold = 1
+	
+	threshold = 1
+|3,0,5,1,3,0,1758984452,"3ddthreshold = 1","","threshold = 1"
+"6	LINE	0
+	abbr -a -- gv 'gvim -n'
+|3,0,6,1,1,0,1758816634,"abbr -a -- gv 'gvim -n'"
+"7	LINE	0
+	abbr -a -- vi 'vim -n'
+|3,0,7,1,1,0,1758816630,"abbr -a -- vi 'vim -n'"
+""-	CHAR	0
+	vim.
+|3,1,36,0,1,0,1759024620,"vim."
+
+# variables globales:
+
+# Marcas en el archivo:
+'0  1  0  ~/Descargas/init.lua
+|4,48,1,0,1759024743,"~/Descargas/init.lua"
+'1  1  0  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,49,1,0,1759023376,"~/Documentos/python/Ejercicios/parahumanos.py"
+'2  12  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,50,12,3,1759022668,"~/Documentos/python/Ejercicios/parahumanos.py"
+'3  12  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,51,12,3,1759022668,"~/Documentos/python/Ejercicios/parahumanos.py"
+'4  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,52,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+'5  57  0  ~/.vimrc
+|4,53,57,0,1758984464,"~/.vimrc"
+'6  57  0  ~/.vimrc
+|4,54,57,0,1758984464,"~/.vimrc"
+'7  57  0  ~/.vimrc
+|4,55,57,0,1758984464,"~/.vimrc"
+'8  57  0  ~/.vimrc
+|4,56,57,0,1758984464,"~/.vimrc"
+'9  56  4  ~/.vimrc
+|4,57,56,4,1758984362,"~/.vimrc"
+
+# Lista de saltos (el más reciente va primero):
+-'  1  0  ~/Descargas/init.lua
+|4,39,1,0,1759024743,"~/Descargas/init.lua"
+-'  81  10  ~/Descargas/init.lua
+|4,39,81,10,1759024701,"~/Descargas/init.lua"
+-'  744  0  ~/Descargas/init.lua
+|4,39,744,0,1759024669,"~/Descargas/init.lua"
+-'  28  17  ~/Descargas/init.lua
+|4,39,28,17,1759024663,"~/Descargas/init.lua"
+-'  1  0  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,1,0,1759023376,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  1  0  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,1,0,1759023376,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  35  0  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,35,0,1759023086,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  35  0  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,35,0,1759023086,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  13  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,13,3,1759023052,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  13  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,13,3,1759023052,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  282  2  ~/.vimrc
+|4,39,282,2,1759022964,"~/.vimrc"
+-'  282  2  ~/.vimrc
+|4,39,282,2,1759022964,"~/.vimrc"
+-'  12  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,12,3,1759022668,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  12  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,12,3,1759022668,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  12  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,12,3,1759022668,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  12  3  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,12,3,1759022668,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  4  1  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,4,1,1759022534,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  4  1  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,4,1,1759022534,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  4  1  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,4,1,1759022534,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  4  1  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,4,1,1759022534,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  30  8  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,30,8,1759022472,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  30  8  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,30,8,1759022472,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  30  8  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,30,8,1759022472,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  30  8  ~/Documentos/python/Ejercicios/parahumanos.py
+|4,39,30,8,1759022472,"~/Documentos/python/Ejercicios/parahumanos.py"
+-'  282  2  ~/.vimrc
+|4,39,282,2,1759022437,"~/.vimrc"
+-'  282  2  ~/.vimrc
+|4,39,282,2,1759022437,"~/.vimrc"
+-'  237  19  ~/.vimrc
+|4,39,237,19,1759022260,"~/.vimrc"
+-'  237  19  ~/.vimrc
+|4,39,237,19,1759022260,"~/.vimrc"
+-'  237  19  ~/.vimrc
+|4,39,237,19,1759022260,"~/.vimrc"
+-'  237  19  ~/.vimrc
+|4,39,237,19,1759022260,"~/.vimrc"
+-'  124  7  ~/.vimrc
+|4,39,124,7,1759022213,"~/.vimrc"
+-'  124  7  ~/.vimrc
+|4,39,124,7,1759022213,"~/.vimrc"
+-'  124  7  ~/.vimrc
+|4,39,124,7,1759022213,"~/.vimrc"
+-'  124  7  ~/.vimrc
+|4,39,124,7,1759022213,"~/.vimrc"
+-'  126  0  ~/.vimrc
+|4,39,126,0,1759022100,"~/.vimrc"
+-'  126  0  ~/.vimrc
+|4,39,126,0,1759022100,"~/.vimrc"
+-'  126  0  ~/.vimrc
+|4,39,126,0,1759022100,"~/.vimrc"
+-'  126  0  ~/.vimrc
+|4,39,126,0,1759022100,"~/.vimrc"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1759021837,"~/.vimrc"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1759021837,"~/.vimrc"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1759021837,"~/.vimrc"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1759021837,"~/.vimrc"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  22  0  ~/dotfiles/.config/fish/conf.d/aliasses.fish
+|4,39,22,0,1759021773,"~/dotfiles/.config/fish/conf.d/aliasses.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  19  8  ~/dotfiles/.config/fish/conf.d/misabbr.fish
+|4,39,19,8,1759021609,"~/dotfiles/.config/fish/conf.d/misabbr.fish"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1758984464,"~/.vimrc"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1758984464,"~/.vimrc"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1758984464,"~/.vimrc"
+-'  57  0  ~/.vimrc
+|4,39,57,0,1758984464,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984423,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984362,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984362,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984362,"~/.vimrc"
+-'  56  4  ~/.vimrc
+|4,39,56,4,1758984362,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1758984065,"~/.vimrc"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+-'  132  0  ~/.config/starship.toml
+|4,39,132,0,1758978538,"~/.config/starship.toml"
+
+# Lista de búfers:
+%~/Descargas/init.lua	1	0
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/Descargas/init.lua
+	*	1759024738	0
+	"	1	0
+	^	81	11
+	.	81	10
+	+	81	7
+	+	1	0
+	+	81	10
+
+> ~/Documentos/python/Ejercicios/parahumanos.py
+	*	1759023367	0
+	"	1	0
+	^	12	4
+	.	35	0
+	+	1	0
+	+	9	0
+	+	13	0
+	+	18	0
+	+	24	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	35	0
+	+	36	0
+	+	12	0
+	+	15	51
+	+	10	7
+	+	12	3
+	+	9	0
+	+	13	0
+	+	17	0
+	+	23	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	34	0
+	+	35	0
+
+> ~/.vimrc
+	*	1759022983	0
+	"	282	0
+	^	237	20
+	.	237	0
+	+	57	0
+	+	103	0
+	+	126	0
+	+	124	8
+	+	237	0
+
+> ~/-RecentFiles-
+	*	1759022982	0
+	"	20	0
+	.	101	0
+	+	299	0
+	+	200	0
+	+	101	0
+
+> ~/dotfiles/.config/fish/conf.d/aliasses.fish
+	*	1759021770	0
+	"	22	0
+	^	22	0
+	.	22	0
+	+	32	15
+	+	11	77
+	+	22	0
+
+> ~/dotfiles/.config/fish/conf.d/misabbr.fish
+	*	1759021597	0
+	"	19	8
+	^	18	21
+	.	18	20
+	+	30	0
+	+	15	0
+	+	28	1
+	+	19	1
+	+	20	1
+	+	29	1
+	+	18	16
+	+	17	11
+	+	18	20
+
+> /usr/share/vim/vim91/doc/gui.txt
+	*	1758984242	0
+	"	383	0
+
+> ~/.config/starship.toml
+	*	1758978537	0
+	"	132	0
+	.	133	0
+	+	14	1
+	+	15	0
+	+	131	0
+	+	132	22
+	+	133	7
+	+	133	0
+
+> ~/dotfiles/.config/fish/conf.d/zoxide.fish
+	*	1758945522	0
+	"	51	4
+
+> ~/dotfiles/.config/fish/config.fish
+	*	1758842975	0
+	"	64	0
+	.	64	0
+	+	64	0

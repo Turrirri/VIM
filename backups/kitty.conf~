@@ -1,0 +1,95 @@
+# vim:fileencoding=utf-8:ft=conf
+
+# General Settings
+allow_remote_control yes
+background_opacity 0.85
+background_blur 1
+bell_on_tab yes
+disable_ligatures never
+enable_audio_bell no
+focus_follows_mouse no
+initial_window_width 1200
+initial_window_height 750
+#initial_window_width 1100
+#initial_window_height 650
+remember_window_size yes
+scrollback_lines 10000
+scrollback_pager less --chop-long-lines --RAW-CONTROL-CHARS +INPUT_LINE_NUMBER
+window_border_width 1.5pt
+#window_padding_width FloatEdges(left=15, top=15, right=15, bottom=15)
+window_margin_width 5
+mouse_hide_wait -3.0
+
+# Font Configuration
+# font_family "JetBrains Mono Nerd Font"
+font_size 11.0
+# bold_font "JetBrains Mono Nerd Font Extra Bold"
+# italic_font "JetBrains Mono Nerd Font Italic"
+# bold_italic_font "JetBrains Mono Nerd Font Extra Bold Italic"
+
+# Tab Bar Styling
+tab_bar_style powerline
+tab_powerline_style round
+tab_bar_edge bottom
+tab_bar_align left
+tab_separator " │ "
+active_tab_font_style bold
+inactive_tab_font_style normal
+active_tab_title_template "{fmt.fg._de935f}{\'*Z \' if (layout_name == \'stack\' and num_windows > 1) else \'\'}{fmt.fg._cc6666}{title}"
+inactive_text_alpha 0.7
+
+# Window and Layout Management
+enabled_layouts tall,*
+# Layout navigation
+#map ctrl+shift+up resize_window taller
+#map ctrl+shift+down resize_window shorter
+#map ctrl+shift+home resize_window reset
+#map ctrl+shift+enter new_window
+#map ctrl+shift+q close_tab
+#map ctrl+shift+right next_tab
+#map ctrl+shift+left previous_tab
+#map ctrl+shift+page_up scroll_page_up
+#map ctrl+shift+page_down scroll_page_down
+#map ctrl+shift+end scroll_end
+
+# Tab and Window Management
+#map ctrl+alt+0 goto_layout tall
+#map ctrl+alt+1 goto_layout fat
+#map ctrl+alt+2 goto_layout horizontal
+#map ctrl+alt+3 goto_layout vertical
+#map ctrl+alt+4 goto_layout stack
+#map ctrl+alt+5 goto_layout splits:split_axis=horizontal
+#map ctrl+shift+alt+n new_tab
+#map ctrl+shift+alt+home kitty_shell window
+
+# Search and Selection
+map ctrl+shift+f launch --stdin-source=@screen_scrollback --type=overlay fzf --no-sort --exact --tac --bind "enter:execute(xsel --primary <<< {}; notify-send copied! {})"
+
+# Shell and Integration
+shell_integration no-title no-cursor
+
+# Theme and Colors
+include current-theme.conf
+
+# Advanced Features
+Enable cursor trail for animation (requires Kitty 0.25+)
+cursor_trail 15
+cursor_trail_start_threshold 0
+cursor_trail_decay 0.1 0.4
+cursor_shape block
+cursor_blink true
+Use a notification for long-running commands
+notify_on_cmd_finish invisible 20
+
+# Cursor Customization
+cursor_shape block
+cursor_blink_interval -1
+cursor_stop_blinking_after 15.0
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="VictorMono Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS

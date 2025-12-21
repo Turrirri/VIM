@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/jhonny/Documentos/python/Ejercicios'
+let g:netrw_dirhist_4='/home/jhonny/Documentos/python'
+let g:netrw_dirhist_3='/home/jhonny/Documentos'
+let g:netrw_dirhist_2='/home/jhonny'
+let g:netrw_dirhist_1='/home/jhonny/dotfiles/.config/fish/conf.d'
