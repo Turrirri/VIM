@@ -1,4 +1,0 @@
-Invoke-Expression (& { (zoxide init powershell | Out-String) })
-$env:EDITOR = 'scoop\shims\vim.exe'
--- oh-my-posh --init --shell pwsh --config C:\Users\picur\oh-my-posh\themes\jandedobbeleer.omp.json | Invoke-Expression
-oh-my-posh --init --shell pwsh --config C:\Users\picur\oh-my-posh\themes\atomic.omp.json | Invoke-Expression
