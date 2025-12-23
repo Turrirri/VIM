@@ -1,4 +1,5 @@
-.git
+*.swp
+.git/
 backups/
 plugged/json-formatter.vim
 undo/
