@@ -166,7 +166,7 @@ set ttyfast
 set undodir=~/.vim/undo
 set undofile
 set undolevels=10000
-set viminfo='10,/10,h,<100,:100,%,n/home/jhonny/.vim/viminfo/.viminfo
+"set viminfo='10,/10,h,<100,:100,%,n/home/jhonny/.vim/viminfo/.viminfo
 set visualbell
 set wildchar=<TAB>
 set wildmenu
