@@ -117,6 +117,9 @@ augroup END
 "********************************************************
 
 "   CONFIGURACIONES  "
+abb jhs "Jhonny Salazar"
+abb emailg "picure01@gmail.com"
+abb emaily "picure01@yahoo.com"
 
 set autochdir
 set autoindent
@@ -317,4 +320,5 @@ function! StripWhitespace()
     call setpos('.', save_cursor)
     call setreg('/', old_query)
 endfunction
+
 
