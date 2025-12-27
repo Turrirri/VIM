@@ -36,6 +36,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'yegappan/mru'
+Plug 'mattn/emmet-vim'
 
 call plug#end()
 
@@ -117,9 +118,6 @@ augroup END
 "********************************************************
 
 "   CONFIGURACIONES  "
-abb jhs "Jhonny Salazar"
-abb emailg "picure01@gmail.com"
-abb emaily "picure01@yahoo.com"
 
 set autochdir
 set autoindent
@@ -128,7 +126,7 @@ set backspace=indent,eol,start
 set backup
 set backupdir=~/.vim/backups
 set cc=80
-"set clipboard=unnamedplus
+set clipboard=unnamedplus
 set cmdheight=2
 set complete-=i
 set copyindent
@@ -320,5 +318,3 @@ function! StripWhitespace()
     call setpos('.', save_cursor)
     call setreg('/', old_query)
 endfunction
-
-
