@@ -27,16 +27,24 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/vim-lsp'
-"Plug 'rafi/awesome-vim-colorschemes'
+Plug 'rafi/awesome-vim-colorschemes'
 "Plug 'rust-lang/rust.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'timothycrosley/isort'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 "Plug 'vim-scripts/indentpython.vim'
 Plug 'yegappan/mru'
+Plug 'menisadi/kanagawa.vim'
+"Plug 'preservim/nerdtree'
+"Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'ryanoasis/vim-devicons'
+"Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'PhilRunninger/nerdtree-buffer-ops'
+"Plug 'PhilRunninger/nerdtree-visual-selection'
 
 call plug#end()
 
@@ -85,19 +93,13 @@ let g:rainbow_active = 1
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
 
-" usando el plugin COC
-if has('nvim')
-  inoremap <silent><expr> <c-space> coc#refresh()
-else
-  inoremap <silent><expr> <c-@> coc#refresh()
-endif
+" usando el plugin COC (deprecated)
+"if has('nvim')
+"  inoremap <silent><expr> <c-space> coc#refresh()
+"else
+"  inoremap <silent><expr> <c-@> coc#refresh()
+"endif
 
-" Plugin AirLine
-let g:airline_detect_modified=1
-let g:airline#extensions#ale#enabled = 1
-let g:airline#extensions#tabline#enabled = 1 " Enable the list of buffers
-let g:airline_powerline_fonts = 1
-"
 " copied (almost) directly from the vim-lsp docs:
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
@@ -119,10 +121,11 @@ augroup END
 
 "   CONFIGURACIONES  "
 
+colorscheme challenger_deep
 set autochdir
 set autoindent
 set autoread
-set backspace=indent,eol,start
+set background=dark
 set backup
 set backupdir=~/.vim/backups
 set cc=80
@@ -133,16 +136,13 @@ set copyindent
 set cursorline
 set directory=~/.vim/vimswaps
 set display+=lastline
-set encoding=utf-8
 set expandtab
-set grepformat=%f:%l:%c:%met
-set hidden
 set grepprg=rg\ --vimgrep\ $*
 set helplang=es,en
+set hidden
 set history=500
 set hlsearch
 set ignorecase
-set incsearch
 set linebreak
 set listchars=tab:\|>
 set mouse=a
@@ -150,34 +150,23 @@ set nocompatible
 set nomodeline nrformats=           " Los numerales serán tratados como decimales
 set nu rnu
 set path+=**
-set ruler
-" set shell=/bin/bash
 set shiftround
 set shiftwidth=6
 set smartcase
 set smartindent
 set smarttab
 set softtabstop=4
-set wrap
 set spelllang=en_us,es
 set t_Co=256
 set tabstop=4
-set textwidth=79
-set title
-set ttyfast
+set termguicolors
 set undodir=~/.vim/undo
 set undofile
 set undolevels=10000
-"set viminfo='10,/10,h,<100,:100,%,n/home/jhonny/.vim/viminfo/.viminfo
+set viminfo='10,/10,h,<100,:100,%,n$HOME/.vim/viminfo/_viminfo
 set visualbell
-set wildchar=<TAB>
-set wildmenu
-set wildmode=longest:list,full
 set wildcharm=<C-z>
-set writebackup
-set termguicolors
-set background=dark
-colorscheme nightfly
+set wildmode=longest:list,full
 
 " add useful stuff to title bar (file name, flags, cwd)
 " based on @factorylabs
@@ -198,17 +187,23 @@ map <silent> <F5> :20Lex<CR>
 nmap <Leader>f = :vimgrep<space>
 nmap <Leader>w = :w !sudo tee > /dev/null %<CR>
 nnoremap <silent> <Esc> :noh<CR>
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 nnoremap # #zz
 nnoremap * *zz
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap <Leader>b :buffer <C-z><S-Tab>
-nnoremap <silent> <C-f> :Files<CR>
+"nnoremap <silent> <C-f> :Files<CR>
+nnoremap f :Files<CR>
 nnoremap <silent> <C-h> = <C-w>h
 nnoremap <silent> <C-j> = <C-w>j
 nnoremap <silent> <C-k> = <C-w>k
 nnoremap <silent> <C-l> = <C-w>l
 nnoremap <silent> <F4> :call ToggleNumber()<cr>
+nnoremap <silent> <F2> :belowright terminal<CR>
 nnoremap <silent> <F3> :call StripWhitespace()<cr>
 nnoremap <silent> <F6> = :Mru<CR>
 nnoremap <silent> <F7> :bel term<CR>
