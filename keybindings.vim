@@ -17,7 +17,8 @@ nnoremap <silent> <C-j> = <C-w>j
 nnoremap <silent> <C-k> = <C-w>k
 nnoremap <silent> <C-l> = <C-w>l
 nnoremap <silent> <F4> :call ToggleNumber()<cr>
-nnoremap <silent> <F2> :belowright terminal<CR>
+nnoremap <silent> ff :FZF ..<CR>
+nnoremap <silent> FF :FZF ~<CR>
 nnoremap <silent> <F3> :call StripWhitespace()<cr>
 nnoremap <silent> <F6> = :Mru<CR>
 nnoremap <silent> <F7> :bel term<CR>
@@ -52,5 +53,3 @@ nmap <M-Down> :m .+1<CR>
 vmap <M-Down> :m '>+1<CR>
 vmap <M-Up> :m '<-2<CR>
 nmap <M-Up> :m .-2<CR>
-
-
