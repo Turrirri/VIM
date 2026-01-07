@@ -44,6 +44,7 @@ noremap }B :blast<CR>
 noremap }b :bnext<CR>
 vmap s S    "Útil para el vim-surround
 vnoremap / /\v
+nun <C-F>
 "********************************************************
 "
 "           MOVING LINES UP AND DOWN

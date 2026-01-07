@@ -1,6 +1,6 @@
 "   CONFIGURACIONES  "
 
-colorscheme challenger_deep
+colorscheme molokai
 set autochdir
 set autoindent
 set autoread

@@ -13,12 +13,10 @@ call plug#begin('~/.vim/plugged')
 "
 Plug 'XadillaX/json-formatter.vim', { 'do': 'npm install -g jjson' }
 Plug 'Yggdroot/indentLine'
-Plug 'airblade/vim-gitgutter'
 Plug 'bluz71/vim-nightfly-guicolors'
 Plug 'dense-analysis/ale'
 Plug 'easymotion/vim-easymotion'
 Plug 'frazrepo/vim-rainbow'
-Plug 'github/copilot.vim'
 Plug 'jiangmiao/auto-pairs'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -28,15 +26,12 @@ Plug 'prabirshrestha/asyncomplete-lsp.vim'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/vim-lsp'
 Plug 'rafi/awesome-vim-colorschemes'
-"Plug 'rust-lang/rust.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'timothycrosley/isort'
 Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-surround'
-Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-"Plug 'vim-scripts/indentpython.vim'
 Plug 'yegappan/mru'
 
 call plug#end()
