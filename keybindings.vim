@@ -2,7 +2,8 @@
 
 let mapleader = " "
 inoremap jk <esc>
-map <silent> <F5> :20Lex<CR>
+nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
+map <silent> <leader>e :20Lex<CR>
 nmap <Leader>f = :vimgrep<space>
 nmap <Leader>w = :w !sudo tee > /dev/null %<CR>
 nnoremap <silent> <Esc> :noh<CR>
@@ -11,7 +12,6 @@ nnoremap * *zz
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap <Leader>b :buffer <C-z><S-Tab>
-nnoremap <silent> <C-f> :Files<CR>
 nnoremap <silent> <C-h> = <C-w>h
 nnoremap <silent> <C-j> = <C-w>j
 nnoremap <silent> <C-k> = <C-w>k
@@ -21,7 +21,8 @@ nnoremap <silent> ff :FZF ..<CR>
 nnoremap <silent> FF :FZF ~<CR>
 nnoremap <silent> <F3> :call StripWhitespace()<cr>
 nnoremap <silent> <F6> = :Mru<CR>
-nnoremap <silent> <F7> :bel term<CR>
+nnoremap <leader>T :vs terminal<CR>
+nnoremap <leader>t :bel term<CR>
 nnoremap <silent> <F8> = :ALEFix<CR>
 nnoremap <silent> <Leader>u :UndotreeToggle<CR>
 nnoremap <silent> <S-F11> :set guioptions +=m<CR>
@@ -44,7 +45,7 @@ noremap }B :blast<CR>
 noremap }b :bnext<CR>
 vmap s S    "Útil para el vim-surround
 vnoremap / /\v
-nun <C-F>
+"
 "********************************************************
 "
 "           MOVING LINES UP AND DOWN

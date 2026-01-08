@@ -1,6 +1,6 @@
 "   CONFIGURACIONES  "
 
-colorscheme molokai
+colorscheme nightfly
 set autochdir
 set autoindent
 set autoread
@@ -8,7 +8,7 @@ set background=dark
 set backup
 set backupdir=~/.vim/backups
 set cc=80
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
 set cmdheight=2
 set complete-=i
 set copyindent
