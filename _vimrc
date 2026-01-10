@@ -1,5 +1,5 @@
 source $HOME/.vim/plugins.vim
 source $HOME/.vim/options.vim
 source $HOME/.vim/autocommands.vim
-source $HOME/.vim/options.vim
+source $HOME/.vim/functions.vim
 source $HOME/.vim/keybindings.vim

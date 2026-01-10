@@ -21,7 +21,6 @@ nnoremap <silent> ff :FZF ..<CR>
 nnoremap <silent> FF :FZF ~<CR>
 nnoremap <silent> <F3> :call StripWhitespace()<cr>
 nnoremap <silent> <F6> = :Mru<CR>
-nnoremap <leader>T :vs terminal<CR>
 nnoremap <leader>t :bel term<CR>
 nnoremap <silent> <F8> = :ALEFix<CR>
 nnoremap <silent> <Leader>u :UndotreeToggle<CR>
@@ -59,7 +58,7 @@ nmap <M-Up> :m .-2<CR>
 
 "********************************************************
 "
-"          Útiles para el plugin VIM-LSP 
+"          Útiles para el plugin VIM-LSP
 "
 "********************************************************
 
@@ -75,4 +74,3 @@ nmap <buffer> ]g <plug>(lsp-next-diagnostic)
 nmap <buffer> K <plug>(lsp-hover)
 nnoremap <buffer> <expr><c-f> lsp#scroll(+4)
 nnoremap <buffer> <expr><c-d> lsp#scroll(-4)
-

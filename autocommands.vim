@@ -8,7 +8,7 @@ augroup END
 
 augroup configgroup
     autocmd!
-    "autocmd! User vim-which-key call which_key#register('<Space>', 'g:which_key_map')
+    autocmd! User vim-which-key call which_key#register('<Space>', 'g:which_key_map')
     autocmd BufEnter Makefile setlocal noexpandtab
     autocmd BufEnter *.h *.c *.cpp setlocal shiftwidth=2 softtabstop=2 tabstop=2
     autocmd BufEnter *.zsh‐theme setlocal filetype=zsh
@@ -47,5 +47,5 @@ augroup lsp_install
     " is registered for a buffer.
     autocmd User lsp_buffer_enabled call s:on_lsp_buffer_enabled()
 augroup END
-
-"********************************************************
+"
+""********************************************************
