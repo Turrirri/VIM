@@ -49,3 +49,63 @@ augroup lsp_install
 augroup END
 "
 ""********************************************************
+
+" --- Función para ejecutar código en terminal flotante ---
+function! EjecutarArchivo()
+    " Guardar el archivo automáticamente antes de ejecutar
+    silent! write
+
+    let l:file_type = &filetype
+    let l:file_name = expand('%:p')
+    let l:cmd = ''
+
+    " Definir el comando según el lenguaje
+    if l:file_type == 'python'
+        let l:cmd = 'python3 ' . l:file_name
+    elseif l:file_type == 'lua'
+        let l:cmd = 'lua ' . l:file_name
+    elseif l:file_type == 'javascript'
+        let l:cmd = 'node ' . l:file_name
+    else
+        echo "Tipo de archivo no soportado"
+        return
+    endif
+
+    " Configuración de dimensiones de la ventana (80% del editor)
+    let l:width = float2nr(&columns * 0.8)
+    let l:height = float2nr(&lines * 0.8)
+    let l:row = float2nr((&lines - l:height) / 2)
+    let l:col = float2nr((&columns - l:width) / 2)
+
+    if has('nvim')
+        " Configuración específica para Neovim (Ventana flotante)
+        let l:opts = {
+            \ 'relative': 'editor',
+            \ 'row': l:row,
+            \ 'col': l:col,
+            \ 'width': l:width,
+            \ 'height': l:height,
+            \ 'style': 'minimal',
+            \ 'border': 'rounded'
+            \ }
+        let l:buf = nvim_create_buf(v:false, v:true)
+        call nvim_open_win(l:buf, v:true, l:opts)
+
+        " Ejecutar y mapear cierre rápido en la terminal
+        execute 'terminal ' . l:cmd
+        startinsert " Entrar en modo insertar automáticamente
+
+        " Mapeo local para cerrar la ventana con 'q' cuando termine el proceso
+        nnoremap <buffer> q :q<CR>
+    else
+        " Alternativa para Vim clásico (Terminal en split inferior)
+        execute 'botright terminal ++shell ' . l:cmd
+    endif
+endfunction
+
+" --- Autocomandos ---
+augroup EjecucionRapida
+    autocmd!
+    " Mapear F5 para ejecutar
+    autocmd FileType python,lua,javascript nnoremap <buffer> <F5> :call EjecutarArchivo()<CR>
+augroup END
