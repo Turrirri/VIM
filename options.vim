@@ -5,15 +5,17 @@ set autochdir
 set autoindent
 set autoread
 set background=dark
-set backup
-set backupdir=~/.vim/backups
+set nobackup
+set nowritebackup
+set noswapfile
+set signcolumn=yes
 set cc=80
-"set clipboard=unnamedplus
+set updatetime=100
+set clipboard=unnamedplus
 set cmdheight=2
 set complete-=i
 set copyindent
 set cursorline
-set directory=~/.vim/vimswaps
 set display+=lastline
 set expandtab
 set grepprg=rg\ --vimgrep\ $*

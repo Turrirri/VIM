@@ -6,7 +6,7 @@ nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 map <silent> <leader>e :20Lex<CR>
 nmap <Leader>f = :vimgrep<space>
 nmap <Leader>w = :w !sudo tee > /dev/null %<CR>
-nnoremap <silent> <Esc> :noh<CR>
+nnoremap <silent> <leader>h :noh<CR>
 nnoremap # #zz
 nnoremap * *zz
 nnoremap <C-d> <C-d>zz
