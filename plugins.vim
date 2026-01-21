@@ -34,6 +34,7 @@ Plug 'tpope/vim-surround'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'yegappan/mru'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
 call plug#end()
 
@@ -88,3 +89,6 @@ let g:rbpt_loadcmd_toggle = 0
 "else
 "  inoremap <silent><expr> <c-@> coc#refresh()
 "endif
+
+" Plugin catpuccin
+let g:airline_theme = 'catppuccin_mocha'

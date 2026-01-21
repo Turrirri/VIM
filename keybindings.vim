@@ -2,7 +2,6 @@
 
 let mapleader = " "
 inoremap jk <esc>
-nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
 map <silent> <leader>e :20Lex<CR>
 nmap <Leader>f = :vimgrep<space>
 nmap <Leader>w = :w !sudo tee > /dev/null %<CR>
@@ -20,7 +19,7 @@ nnoremap <silent> <F4> :call ToggleNumber()<cr>
 nnoremap <silent> ff :FZF ..<CR>
 nnoremap <silent> FF :FZF ~<CR>
 nnoremap <silent> <F3> :call StripWhitespace()<cr>
-nnoremap <silent> <F6> = :Mru<CR>
+nnoremap <silent> <leader>fr = :Mru<CR>
 nnoremap <leader>t :bel term<CR>
 nnoremap <silent> <F8> = :ALEFix<CR>
 nnoremap <silent> <Leader>u :UndotreeToggle<CR>
@@ -38,10 +37,10 @@ nnoremap j gj
 nnoremap k gk
 nnoremap n nzz
 nnoremap te = :tabedit<space>
-noremap {B :bfirst<CR>
-noremap {b :bprev<CR>
-noremap }B :blast<CR>
-noremap }b :bnext<CR>
+noremap <S-H> :bfirst<CR>
+noremap <S-h> :bprev<CR>
+noremap <S-L> :blast<CR>
+noremap <S-l> :bnext<CR>
 vmap s S    "Útil para el vim-surround
 vnoremap / /\v
 "

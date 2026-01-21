@@ -1,6 +1,6 @@
 "   CONFIGURACIONES  "
 
-colorscheme nightfly
+colorscheme catppuccin_mocha
 set autochdir
 set autoindent
 set autoread
