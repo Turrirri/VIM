@@ -1,6 +1,6 @@
 "   CONFIGURACIONES  "
 
-colorscheme catppuccin_mocha
+colorscheme torte
 set autochdir
 set autoindent
 set autoread

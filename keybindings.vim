@@ -5,13 +5,13 @@ inoremap jk <esc>
 map <silent> <leader>e :20Lex<CR>
 nmap <Leader>f = :vimgrep<space>
 nmap <Leader>w = :w !sudo tee > /dev/null %<CR>
-nnoremap <silent> <leader>h :noh<CR>
+map <leader>h :noh<CR>
 nnoremap # #zz
 nnoremap * *zz
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap <Leader>b :buffer <C-z><S-Tab>
-nnoremap <silent> <C-h> = <C-w>h
+map <silent> <C-h> = <C-w>h
 nnoremap <silent> <C-j> = <C-w>j
 nnoremap <silent> <C-k> = <C-w>k
 nnoremap <silent> <C-l> = <C-w>l
