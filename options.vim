@@ -1,6 +1,6 @@
 "   CONFIGURACIONES  "
 
-colorscheme torte
+colorscheme orbital
 set autochdir
 set autoindent
 set autoread
@@ -31,6 +31,8 @@ set nocompatible
 set nomodeline nrformats=           " Los numerales serán tratados como decimales
 set nu rnu
 set path+=**
+set splitright
+set splitbelow
 set shiftround
 set shiftwidth=6
 set smartcase
