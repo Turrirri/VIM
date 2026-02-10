@@ -2,7 +2,7 @@
 
 let mapleader = " "
 inoremap jk <esc>
-map <silent> <leader>e :20Lex<CR>
+map <leader>e :20Lex<CR>
 nmap <Leader>f = :vimgrep<space>
 nmap <Leader>w = :w !sudo tee > /dev/null %<CR>
 map <leader>h :noh<CR>
@@ -11,24 +11,24 @@ nnoremap * *zz
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
 nnoremap <Leader>b :buffer <C-z><S-Tab>
-map <silent> <C-h> = <C-w>h
-nnoremap <silent> <C-j> = <C-w>j
-nnoremap <silent> <C-k> = <C-w>k
-nnoremap <silent> <C-l> = <C-w>l
-nnoremap <silent> <F4> :call ToggleNumber()<cr>
-nnoremap <silent> ff :FZF ..<CR>
-nnoremap <silent> FF :FZF ~<CR>
-nnoremap <silent> <F3> :call StripWhitespace()<cr>
-nnoremap <silent> <leader>fr = :Mru<CR>
-nnoremap <leader>t :bel term<CR>
-nnoremap <silent> <F8> = :ALEFix<CR>
-nnoremap <silent> <Leader>u :UndotreeToggle<CR>
-nnoremap <silent> <S-F11> :set guioptions +=m<CR>
-nnoremap <silent> <S-F8> = :ALENextWrap<CR>
-nnoremap <silent> tc = :tabclose<CR>
-nnoremap <silent> tn = :tabNext<CR>
-nnoremap <silent> to = :tabonly<CR>
-nnoremap <silent> tp = :tabprev<CR>
+map <C-h> = <C-w>h
+nnoremap  <C-j> = <C-w>j
+nnoremap  <C-k> = <C-w>k
+nnoremap  <C-l> = <C-w>l
+nnoremap  <F4> :call ToggleNumber()<cr>
+nnoremap  ff :FZF ..<CR>
+nnoremap  FF :FZF ~<CR>
+nnoremap  <F3> :call StripWhitespace()<cr>
+nnoremap  <leader>fr = :Mru<CR>
+nnoremap  t :bel term<CR>
+nnoremap  <F8> = :ALEFix<CR>
+nnoremap  <Leader>u :UndotreeToggle<CR>
+nnoremap  <S-F11> :set guioptions +=m<CR>
+nnoremap  <S-F8> = :ALENextWrap<CR>
+nnoremap  tc = :tabclose<CR>
+nnoremap  tn = :tabNext<CR>
+nnoremap  to = :tabonly<CR>
+nnoremap  tp = :tabprev<CR>
 nnoremap N Nzz
 nnoremap g# g#zz
 nnoremap g* g*zz
