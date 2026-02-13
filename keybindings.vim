@@ -10,7 +10,7 @@ nnoremap # #zz
 nnoremap * *zz
 nnoremap <C-d> <C-d>zz
 nnoremap <C-u> <C-u>zz
-nnoremap <Leader>b :buffer <C-z><S-Tab>
+nnoremap <Leader>b :buffer <C-z>
 map <C-h> = <C-w>h
 nnoremap  <C-j> = <C-w>j
 nnoremap  <C-k> = <C-w>k
@@ -37,11 +37,11 @@ nnoremap j gj
 nnoremap k gk
 nnoremap n nzz
 nnoremap te = :tabedit<space>
-noremap <S-H> :bfirst<CR>
+noremap [B :bfirst<CR>
 noremap <S-h> :bprev<CR>
-noremap <S-L> :blast<CR>
+noremap ]B :blast<CR>
 noremap <S-l> :bnext<CR>
-vmap s S    "Útil para el vim-surround
+vmap s S
 vnoremap / /\v
 "
 "********************************************************

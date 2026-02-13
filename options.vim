@@ -1,6 +1,6 @@
 "   CONFIGURACIONES  "
 
-colorscheme orbital
+colorscheme nightfly
 set autochdir
 set autoindent
 set autoread
